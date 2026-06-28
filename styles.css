@@ -46,7 +46,7 @@ h3 { margin-bottom: 10px; font-size: 1.45rem; }
 .section { padding: 96px 0 120px; }
 .section-heading { max-width: 720px; margin-bottom: 40px; }
 .app-card { display: grid; grid-template-columns: auto 1fr auto; gap: 24px; align-items: center; padding: 30px; border: 1px solid var(--border); border-radius: 26px; background: var(--surface); box-shadow: var(--shadow); backdrop-filter: blur(20px); }
-.app-icon { display: grid; width: 72px; height: 72px; border-radius: 17px; color: white; background: linear-gradient(145deg, #0a84ff, #635bff); box-shadow: 0 10px 24px rgba(32, 96, 220, 0.25); font-size: 2rem; font-weight: 750; place-items: center; }
+.app-icon { display: block; width: 72px; height: 72px; border-radius: 17px; box-shadow: 0 10px 24px rgba(32, 96, 220, 0.25); object-fit: cover; }
 .app-details p { max-width: 630px; margin: 0; color: var(--secondary); }
 .text-link { white-space: nowrap; font-weight: 650; }
 .page-main { max-width: 780px; padding: 88px 0 120px; }
