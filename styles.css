@@ -60,6 +60,9 @@ footer {
   align-items: center;
   justify-content: space-between;
   min-height: 72px;
+  gap: 16px 24px;
+  flex-wrap: wrap;
+  padding-block: 16px;
 }
 
 .brand {
@@ -74,7 +77,8 @@ footer {
 
 nav {
   display: flex;
-  gap: 24px;
+  gap: 12px 24px;
+  flex-wrap: wrap;
 }
 
 nav a {
@@ -256,7 +260,7 @@ h3 {
 }
 
 .meta {
-  margin: -42px 0 48px;
+  margin: 0 0 48px;
   color: var(--secondary);
   font-size: 0.9rem;
 }
@@ -268,6 +272,18 @@ footer {
   font-size: 0.85rem;
 }
 
+nav a[aria-current="page"] {
+  color: var(--text);
+}
+
+footer nav {
+  margin-top: 12px;
+}
+
+.content-card a {
+  overflow-wrap: anywhere;
+}
+
 footer p {
   margin: 0;
 }
@@ -277,6 +293,15 @@ footer p {
   main,
   footer {
     width: min(100% - 28px, 1080px);
+  }
+
+  .site-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  nav {
+    gap: 10px 18px;
   }
 
   .hero {
