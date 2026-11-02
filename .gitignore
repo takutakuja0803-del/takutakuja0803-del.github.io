@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSDverride
+
+
+
+# Editor files
+
+.vscode/
+
+.idea/
+
+*.swp
+
+*.swo
+
+# Temporary files
+
+*.log
+
+*.tmp
+
+*.bak
+
+# Environment variables and secrets
+
+.env
+
+.env.*
+
+!.env.example
+
+# Python cache
+
+__pycache__/
+
+*.pyc
+# Node.js dependencies
+node_modules/
